@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="566" y="199" key="FileChooserDialogImpl" timestamp="1585039501083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="566" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585039501083" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1585039469971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585039469971" />
+    <state x="115" y="136" key="new project wizard" timestamp="1585039533614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="136" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585039533614" />
+  </component>
+</project>
