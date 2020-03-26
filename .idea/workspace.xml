@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8104e2bf-a2ed-4946-b5b8-82d535bca8b6" name="Default Changelist" comment="spring项目的开始">
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-hello/src/main/java/com/sac/pojo/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-hello/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-hello/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDaoMysqlImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDaoOrcalImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srping-01/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="applicationContext" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\WorkSpace\Modbus\Spring\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -10,30 +53,151 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1ZbC2X4Cn3ScinKYV1QmRidGtlc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sac.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest">
+    <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-02-hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="srping-01-ioc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.MyTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8104e2bf-a2ed-4946-b5b8-82d535bca8b6" name="Default Changelist" comment="" />
+      <created>1585039395524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585039395524</updated>
+      <workItem from="1585039398946" duration="3872000" />
+      <workItem from="1585098214152" duration="1826000" />
+      <workItem from="1585184539998" duration="3610000" />
+    </task>
+    <task id="LOCAL-00001" summary="spring项目的开始">
+      <created>1585039565126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585039565126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring项目的开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring项目的开始" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585186886835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585186886835" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585185007577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585185007577" />
     <state x="566" y="199" key="FileChooserDialogImpl" timestamp="1585039501083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="566" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585039501083" />
+    <state width="1031" height="144" key="GridCell.Tab.0.bottom" timestamp="1585188444807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585188444807" />
+    <state width="1031" height="144" key="GridCell.Tab.0.center" timestamp="1585188444806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585188444806" />
+    <state width="1031" height="144" key="GridCell.Tab.0.left" timestamp="1585188444806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585188444806" />
+    <state width="1031" height="144" key="GridCell.Tab.0.right" timestamp="1585188444807">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585188444807" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1585039469971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585039469971" />
-    <state x="115" y="136" key="new project wizard" timestamp="1585039533614">
+    <state x="378" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585039640507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="136" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585039533614" />
+    <state x="378" y="191" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585039640507" />
+    <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1585186683751">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585186683751" />
+    <state x="115" y="136" key="new project wizard" timestamp="1585186549665">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="115" y="136" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585186549665" />
+    <state x="398" y="183" key="run.anything.popup" timestamp="1585186973712">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="183" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585186973712" />
+    <state x="348" y="88" key="spring file set editor" timestamp="1585187845745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="348" y="88" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1585187845745" />
   </component>
 </project>

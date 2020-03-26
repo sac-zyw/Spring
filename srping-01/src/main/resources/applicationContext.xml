@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    bean元素：标识当前对象的创建由spring容器管理
+    id：标识对象，未来在应用程序中可以根据id获取对象
+    class：被管理对象的全类名
+    name：对象的属性
+    value:具体的值
+    ref:引用spring中已经创建好的bean
+    -->
+    <bean id="mysqlImpl" class="com.sac.dao.UserDaoMysqlImpl"/>
+    <bean id="orcalImpl" class="com.sac.dao.UserDaoOrcalImpl"/>
+
+    <bean id="UserServiceImpl" class="com.sac.service.UserServiceImpl">
+        <property name="userDao" ref="orcalImpl"/>
+    </bean>
+</beans>
