@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8104e2bf-a2ed-4946-b5b8-82d535bca8b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-05-autowired/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/java/com/sac/pojo/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/java/com/sac/pojo/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/java/com/sac/pojo/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-05-autowired/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/com/sac/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/com/sac/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/com/sac/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/java/com/sac/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-06-anno/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/main/java/com/sac/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/main/java/com/sac/config/SacConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/main/java/com/sac/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-07-appconfig/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -76,6 +68,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -83,7 +78,7 @@
       <recent name="com.sac.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest (1)">
+  <component name="RunManager" selected="Application.MyTest (2)">
     <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-06-anno" />
@@ -91,9 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-07-appconfig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="spring-04-di" />
+      <module name="spring-06-anno" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,9 +112,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest (2)" />
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.MyTest (1)" />
         <item itemvalue="JUnit.MyTest.test1" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +144,7 @@
       <workItem from="1585039398946" duration="3872000" />
       <workItem from="1585098214152" duration="1826000" />
       <workItem from="1585184539998" duration="17051000" />
+      <workItem from="1585207445367" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="spring项目的开始">
       <created>1585039565126</created>
@@ -184,14 +188,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="依赖注入" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="386" y="28" width="594" height="672" key="#MyTest" timestamp="1585207584141">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="386" y="28" width="594" height="672" key="#MyTest/0.0.1366.728@0.0.1366.728" timestamp="1585207584141" />
     <state x="0" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585193078381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585193078381" />
-    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585206029782">
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585208665970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585206029782" />
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585208665970" />
     <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1585201724293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -200,22 +208,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="566" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585039501083" />
-    <state width="1031" height="157" key="GridCell.Tab.0.bottom" timestamp="1585207055797">
+    <state width="1031" height="124" key="GridCell.Tab.0.bottom" timestamp="1585209944418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="157" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585207055797" />
-    <state width="1031" height="157" key="GridCell.Tab.0.center" timestamp="1585207055796">
+    <state width="1031" height="124" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585209944418" />
+    <state width="1031" height="124" key="GridCell.Tab.0.center" timestamp="1585209944418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="157" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585207055796" />
-    <state width="1031" height="157" key="GridCell.Tab.0.left" timestamp="1585207055796">
+    <state width="1031" height="124" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585209944418" />
+    <state width="1031" height="124" key="GridCell.Tab.0.left" timestamp="1585209944417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="157" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585207055796" />
-    <state width="1031" height="157" key="GridCell.Tab.0.right" timestamp="1585207055797">
+    <state width="1031" height="124" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585209944417" />
+    <state width="1031" height="124" key="GridCell.Tab.0.right" timestamp="1585209944418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="157" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585207055797" />
+    <state width="1031" height="124" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585209944418" />
     <state width="1031" height="180" key="GridCell.Tab.1.bottom" timestamp="1585189229883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1031" height="180" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585189229883" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1585203758558">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1585207554002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585203758558" />
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585207554002" />
     <state x="378" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585201818850">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,10 +252,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585186683751" />
-    <state x="115" y="136" key="new project wizard" timestamp="1585205389729">
+    <state x="102" y="95" key="new project wizard" timestamp="1585209375514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="136" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585205389729" />
+    <state x="102" y="95" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585209375514" />
     <state x="398" y="183" key="run.anything.popup" timestamp="1585186973712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
