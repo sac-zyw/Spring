@@ -4,20 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8104e2bf-a2ed-4946-b5b8-82d535bca8b6" name="Default Changelist" comment="spring项目的开始">
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02-hello/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02-hello/src/main/java/com/sac/pojo/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02-hello/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02-hello/src/test/java/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDaoMysqlImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/dao/UserDaoOrcalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/java/com/sac/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srping-01/src/test/java/MyTest.java" afterDir="false" />
+    <list default="true" id="8104e2bf-a2ed-4946-b5b8-82d535bca8b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/java/com/sac/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/src/main/resources/beans1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-ioc2/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -81,10 +75,17 @@
       <recent name="com.sac.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest">
+  <component name="RunManager" selected="Application.MyTest (2)">
     <configuration name="MyTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyTest" />
       <module name="spring-02-hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-03-ioc2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest (2)" />
         <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.MyTest (1)" />
       </list>
@@ -127,7 +129,7 @@
       <updated>1585039395524</updated>
       <workItem from="1585039398946" duration="3872000" />
       <workItem from="1585098214152" duration="1826000" />
-      <workItem from="1585184539998" duration="3610000" />
+      <workItem from="1585184539998" duration="6138000" />
     </task>
     <task id="LOCAL-00001" summary="spring项目的开始">
       <created>1585039565126</created>
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585039565126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ioc的推导，以及xml的初步使用">
+      <created>1585188671861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585188671861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,60 +153,77 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring项目的开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring项目的开始" />
+    <MESSAGE value="ioc的推导，以及xml的初步使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="ioc的推导，以及xml的初步使用" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585186886835">
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585188796586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585186886835" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585185007577">
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585188796586" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1585188669389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585185007577" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585188669389" />
     <state x="566" y="199" key="FileChooserDialogImpl" timestamp="1585039501083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="566" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585039501083" />
-    <state width="1031" height="144" key="GridCell.Tab.0.bottom" timestamp="1585188444807">
+    <state width="1031" height="144" key="GridCell.Tab.0.bottom" timestamp="1585191196722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585188444807" />
-    <state width="1031" height="144" key="GridCell.Tab.0.center" timestamp="1585188444806">
+    <state width="1031" height="144" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585191196722" />
+    <state width="1031" height="144" key="GridCell.Tab.0.center" timestamp="1585191196721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585188444806" />
-    <state width="1031" height="144" key="GridCell.Tab.0.left" timestamp="1585188444806">
+    <state width="1031" height="144" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585191196721" />
+    <state width="1031" height="144" key="GridCell.Tab.0.left" timestamp="1585191196721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585188444806" />
-    <state width="1031" height="144" key="GridCell.Tab.0.right" timestamp="1585188444807">
+    <state width="1031" height="144" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585191196721" />
+    <state width="1031" height="144" key="GridCell.Tab.0.right" timestamp="1585191196722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585188444807" />
+    <state width="1031" height="144" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585191196722" />
+    <state width="1031" height="180" key="GridCell.Tab.1.bottom" timestamp="1585189229883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="180" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585189229883" />
+    <state width="1031" height="180" key="GridCell.Tab.1.center" timestamp="1585189229883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="180" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585189229883" />
+    <state width="1031" height="180" key="GridCell.Tab.1.left" timestamp="1585189229883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="180" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585189229883" />
+    <state width="1031" height="180" key="GridCell.Tab.1.right" timestamp="1585189229883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1031" height="180" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585189229883" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1585039469971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585039469971" />
-    <state x="378" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585039640507">
+    <state x="378" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585188679562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="191" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585039640507" />
+    <state x="378" y="191" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585188679562" />
     <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1585186683751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585186683751" />
-    <state x="115" y="136" key="new project wizard" timestamp="1585186549665">
+    <state x="115" y="136" key="new project wizard" timestamp="1585188715221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="115" y="136" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585186549665" />
+    <state x="115" y="136" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585188715221" />
     <state x="398" y="183" key="run.anything.popup" timestamp="1585186973712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="183" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585186973712" />
-    <state x="348" y="88" key="spring file set editor" timestamp="1585187845745">
+    <state x="348" y="88" key="spring file set editor" timestamp="1585188971625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="348" y="88" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1585187845745" />
+    <state x="348" y="88" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1585188971625" />
   </component>
 </project>
