@@ -11,6 +11,7 @@
         <module name="spring-07-appconfig" />
         <module name="spring-02-hello" />
         <module name="spring-04-di" />
+        <module name="spring-09-aop" />
         <module name="spring-08-proxy" />
         <module name="spring-03-ioc2" />
         <module name="spring-06-anno" />
@@ -23,7 +24,6 @@
       <module name="spring-06-annotation" target="11" />
       <module name="spring-07-a'p'pconfig" target="11" />
       <module name="spring-07-appConfig" target="11" />
-      <module name="spring-09-aop" target="11" />
       <module name="spring-10-mybatis" target="11" />
       <module name="spring-11-transation" target="11" />
     </bytecodeTargetLevel>

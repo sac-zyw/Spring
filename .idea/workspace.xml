@@ -5,20 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8104e2bf-a2ed-4946-b5b8-82d535bca8b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo4/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo4/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/target/classes/META-INF/spring-08-proxy.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo4/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo4/ProxyInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/spring-09-aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/com/sac/diy/DiyPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/com/sac/service/AfterLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/com/sac/service/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/com/sac/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/java/com/sac/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/main/resources/ApplicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-aop/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo3/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo3/ProxyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo3/ProxyInvocationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo3/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/sac/demo3/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/ProxyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/ProxyInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/META-INF/spring-08-proxy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo1/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo1/Host.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo1/Proxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo1/Rent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo2/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo2/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo2/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo2/UserServiceProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/Host.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/ProxyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo3/Rent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo4/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/demo4/ProxyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Sun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/Test11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-proxy/target/classes/com/sac/reflect/User.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +59,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="applicationContext" />
-        <option value="ApplicationContext" />
         <option value="Interface" />
+        <option value="ApplicationContext" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +74,12 @@
         <option value="D:\WorkSpace\Modbus\Spring\.idea" />
       </set>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -77,7 +113,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -89,7 +125,7 @@
       <recent name="D:\WorkSpace\Spring\spring-08-proxy\src\main\java\com\sac\demo3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.MyTest">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sac.demo4.Client" />
       <module name="spring-08-proxy" />
@@ -116,15 +152,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sac.reflect.Test09" />
-      <module name="spring-08-proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sac.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="spring-09-aop" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test11" />
         <item itemvalue="Application.Test10" />
-        <item itemvalue="Application.Test09" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +208,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\SAC\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -192,7 +222,7 @@
       <workItem from="1585184539998" duration="17051000" />
       <workItem from="1585207445367" duration="8838000" />
       <workItem from="1585224758521" duration="3959000" />
-      <workItem from="1585271378207" duration="10825000" />
+      <workItem from="1585271378207" duration="14821000" />
     </task>
     <task id="LOCAL-00001" summary="spring项目的开始">
       <created>1585039565126</created>
@@ -243,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585279771738</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="学习动态代理，回头恶补反射相关内容">
+      <created>1585284831411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585284831411</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,38 +305,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585193078381" />
-    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585281592886">
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585289600429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585281592886" />
+    <state x="0" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585289600429" />
     <state x="435" y="269" width="478" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585214849235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="435" y="269" width="478" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1585214849235" />
-    <state x="266" y="0" key="CommitChangelistDialog2" timestamp="1585279769832">
+    <state x="266" y="0" key="CommitChangelistDialog2" timestamp="1585284829869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="266" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585279769832" />
+    <state x="266" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585284829869" />
     <state x="566" y="199" key="FileChooserDialogImpl" timestamp="1585039501083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="566" y="199" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585039501083" />
-    <state width="1031" height="301" key="GridCell.Tab.0.bottom" timestamp="1585284809479">
+    <state width="1031" height="256" key="GridCell.Tab.0.bottom" timestamp="1585291646599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585284809479" />
-    <state width="1031" height="301" key="GridCell.Tab.0.center" timestamp="1585284809479">
+    <state width="1031" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585291646599" />
+    <state width="1031" height="256" key="GridCell.Tab.0.center" timestamp="1585291646598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585284809479" />
-    <state width="1031" height="301" key="GridCell.Tab.0.left" timestamp="1585284809479">
+    <state width="1031" height="256" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585291646598" />
+    <state width="1031" height="256" key="GridCell.Tab.0.left" timestamp="1585291646597">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585284809479" />
-    <state width="1031" height="301" key="GridCell.Tab.0.right" timestamp="1585284809479">
+    <state width="1031" height="256" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585291646597" />
+    <state width="1031" height="256" key="GridCell.Tab.0.right" timestamp="1585291646598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1031" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585284809479" />
+    <state width="1031" height="256" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585291646598" />
     <state width="1031" height="180" key="GridCell.Tab.1.bottom" timestamp="1585272996250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -316,22 +353,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1031" height="180" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585272996250" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1585224836645">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1585290136874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585224836645" />
-    <state x="378" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585279777550">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585290136874" />
+    <state x="378" y="191" key="Vcs.Push.Dialog.v2" timestamp="1585284836207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="191" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585279777550" />
+    <state x="378" y="191" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585284836207" />
     <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1585186683751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="518" width="891" height="430" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1585186683751" />
-    <state x="102" y="95" key="new project wizard" timestamp="1585226141059">
+    <state x="102" y="95" key="new project wizard" timestamp="1585288283421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="102" y="95" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585226141059" />
+    <state x="102" y="95" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585288283421" />
     <state x="398" y="183" key="run.anything.popup" timestamp="1585210792351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -340,9 +377,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585276223374" />
-    <state x="348" y="88" key="spring file set editor" timestamp="1585205427215">
+    <state x="348" y="88" key="spring file set editor" timestamp="1585289739654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="348" y="88" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1585205427215" />
+    <state x="348" y="88" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1585289739654" />
   </component>
 </project>
