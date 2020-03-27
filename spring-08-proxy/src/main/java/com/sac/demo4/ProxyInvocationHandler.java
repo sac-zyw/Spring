@@ -1,4 +1,6 @@
-package com.sac.demo3;
+package com.sac.demo4;
+
+import com.sac.demo3.Rent;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -11,10 +13,10 @@ import java.lang.reflect.Proxy;
 //等会用这个类自动生成代理类
 public class ProxyInvocationHandler implements InvocationHandler {
     //被代理的接口
-    private Rent rent;
+    private Object target;
 
-    public void setRent(Rent rent) {
-        this.rent = rent;
+    public void setTarget(Object target) {
+        this.target = target;
     }
 
     /**
@@ -24,7 +26,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
      */
     public Object getProxy() {
         return Proxy.newProxyInstance(this.getClass().getClassLoader()
-                , rent.getClass().getInterfaces()
+                , target.getClass().getInterfaces()
                 , this);
     }
 
@@ -39,17 +41,14 @@ public class ProxyInvocationHandler implements InvocationHandler {
      */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        seeHouse();
+        log(method.getName());
         //动态代理的本质，就是使用反射机制实现
-        Object result = method.invoke(rent, args);
-        fare();
+        Object result = method.invoke(target, args);
         return result;
     }
 
-    public void seeHouse(){
-        System.out.println("中介带看房");
+    public void log(String msg){
+        System.out.println("执行了"+msg+"方法");
     }
-    public void fare(){
-        System.out.println("收取中介费");
-    }
+
 }
