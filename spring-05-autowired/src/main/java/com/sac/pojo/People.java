@@ -2,17 +2,21 @@ package com.sac.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 /**
  * @author ShiAC
  * @date 2020/3/26
  */
+@Component
 public class People {
     //如果显示定义了Autowired的required属性的为false，说明这个对象可以为空，否则不允许为空
     @Autowired(required = false)
+//    @Qualifier("cat")
     private Cat cat;
-    @Autowired
-    @Qualifier(value = "dog222")
+    @Autowired(required = false)
+//    @Qualifier(value = "dog")
     private Dog dog;
 
     private String name;
@@ -43,10 +47,6 @@ public class People {
 
     @Override
     public String toString() {
-        return "People{" +
-                "cat=" + cat +
-                ", dog=" + dog +
-                ", name='" + name + '\'' +
-                '}';
+        return "People{" + "cat=" + cat + ", dog=" + dog + ", name='" + name + '\'' + '}';
     }
 }
