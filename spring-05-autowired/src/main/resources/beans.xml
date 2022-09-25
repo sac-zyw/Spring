@@ -9,5 +9,9 @@
     <bean id="cat" class="com.sac.pojo.Cat"/>
     <bean id="dog" class="com.sac.pojo.Dog"/>
     <bean id="dog222" class="com.sac.pojo.Dog"/>
-    <bean id="people" class="com.sac.pojo.People"/>
+    <bean id="people" class="com.sac.pojo.People">
+        <property name="name" value="小土豆"/>
+        <property name="dog" ref="dog"/>
+        <property name="cat" ref="cat"/>
+    </bean>
 </beans>
